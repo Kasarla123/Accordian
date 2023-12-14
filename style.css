@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #E3F2FD;
+    background:black
 }
 .accordion{
     max-width: 530px;
@@ -26,21 +26,21 @@ body{
 .accordion .accordion-content{
     margin: 10px 0;
     border-radius: 4px;
-    background: #FFF7F0;
-    border: 1px solid #FFD6B3;
+    background:  #FFCCD6;
+    border: 1px solid  #FFF0F3;
     overflow: hidden;
 }
 .accordion-content:nth-child(2){
-    background-color: #F0FAFF;
-    border-color: #CCEEFF;
+    background-color: #CCCCFF;
+    border-color:#F0FAFF;
 }
 .accordion-content:nth-child(3){
-    background-color: #FFF0F3;
-    border-color: #FFCCD6;
+    background-color:  #FFCCD6;
+    border-color: #FFF0F3;
 }
 .accordion-content:nth-child(4){
-    background-color: #F0F0FF;
-    border-color: #CCCCFF;
+    background-color: #CCCCFF;
+    border-color:#F0FAFF;
 }
 .accordion-content.open{
     padding-bottom: 10px;
